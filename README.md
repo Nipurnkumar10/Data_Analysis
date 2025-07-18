@@ -1,27 +1,76 @@
-# Data_Science_Social_Media_Analysis
+#  Social Media Engagement Data Analysis
 
-This project explores engagement trends across different social media platforms using a dataset that includes 100 social media posts from Facebook, Instagram, and Twitter. Each post is analyzed based on attributes like post type, time, day, sentiment, and its engagement metrics: likes, comments, and shares.
+This project analyzes a dataset of 100 social media posts from platforms like **Facebook**, **Instagram**, and **Twitter** to uncover engagement trends using SQL queries and data visualizations.
 
-# Objectives:
-Identify which platforms and content types drive the most engagement.
+---
 
-Understand how timing, day, and sentiment affect user interactions.
+##  Dataset Overview
 
-Use SQL queries to extract meaningful insights and patterns from the data.
+The dataset contains the following fields for each post:
+- `platform` – Social media platform (Facebook, Instagram, Twitter)
+- `post_type` – Content type (image, video, poll, carousel, etc.)
+- `post_time` – Date and time of posting
+- `post_day` – Day of the week
+- `likes`, `comments`, `shares` – Engagement metrics
+- `sentiment_score` – Sentiment of the post (positive, neutral, negative)
 
-# Key Insights:
-Instagram had the highest average engagement compared to Facebook and Twitter.
+---
 
-Polls and Videos were the most engaging post types overall.
+##  Objectives
 
-Posts published at night and on weekends received more interaction.
+- Identify which platform generates the highest engagement.
+- Determine the most effective post types and timing.
+- Understand the impact of post sentiment on engagement.
+- Use SQL queries to drive insights and support decisions.
 
-Negative sentiment posts surprisingly generated more engagement on some platforms.
+---
 
-Most common post type on Instagram was images, but videos performed better in terms of engagement.
+##  Key Insights
 
-Over 60% of posts crossed the 1000 likes mark, indicating strong user interaction trends.
+-  **Instagram** shows the highest average engagement.
+-  **Videos and Polls** perform better than other post types.
+-  **Night-time** and **weekend** posts tend to engage more users.
+-  **Negative sentiment posts** sometimes outperform positive ones in engagement.
+-  **Images** are most frequently posted on Instagram, but **videos** attract more interaction.
 
-# Conclusion:
-This project demonstrates how data-driven insights can guide content strategy across platforms. By understanding the types of posts, optimal times, and user sentiments that drive engagement, social media managers can optimize posting behavior and improve reach.
+---
+
+##  Tools & Technologies
+
+- **SQL** (SQL-Workbench) – querying and analysis
+
+---
+
+##  Project Files
+
+| File | Description |
+|------|-------------|
+| `Data Science Social_Media.sql` | SQL queries used for analysis |
+| `Data Science Social_Media_sql_Questions` | 20 project questions for case-study |
+| `social_media_engagement1.csv` | Dataset for analysis |
+
+---
+
+##  Example Questions Answered
+
+- Which platform has the highest average engagement?
+- What post type performs best?
+- Does posting at night increase engagement?
+- What is the most common post type on Instagram?
+- How many posts exceed 1000 likes?
+
+---
+
+##  Conclusion
+
+By analyzing content type, sentiment, timing, and platform performance, this project provides actionable insights that can help improve social media strategy and maximize engagement.
+
+> **This project shows how SQL and basic analytics can support data-driven content decisions.**
+
+---
+
+##  Author
+
+**Nipurn Kumar** – [GitHub Profile](https://github.com/Nipurnkumar10)
+
 
