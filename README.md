@@ -22,6 +22,6 @@ Most common post type on Instagram was images, but videos performed better in te
 
 Over 60% of posts crossed the 1000 likes mark, indicating strong user interaction trends.
 
-#Conclusion:
+# Conclusion:
 This project demonstrates how data-driven insights can guide content strategy across platforms. By understanding the types of posts, optimal times, and user sentiments that drive engagement, social media managers can optimize posting behavior and improve reach.
 
