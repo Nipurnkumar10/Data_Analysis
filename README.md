@@ -46,7 +46,7 @@ The dataset contains the following fields for each post:
 | File | Description |
 |------|-------------|
 | `Data Science Social_Media.sql` | SQL queries used for analysis |
-| `Data Science Social_Media_sql_Questions` | 20 project questions for case-study |
+| `Data Science Social_Media_sql_Questions.docx` | 20 project questions for case-study |
 | `social_media_engagement1.csv` | Dataset for analysis |
 
 ---
